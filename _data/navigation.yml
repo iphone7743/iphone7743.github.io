@@ -1,7 +1,68 @@
 # main links
+
 main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+  - title: "SLAM"
+    url: /posting/1_slam/
+  - title: "OpenCV"
+    url: /posting/2_opencv/
+  - title: "Paper Survey"
+    url: /posting/3_papersurvey/
+  - title: "Deep Learning"
+    url: /posting/4_deeplearning/  
+  - title: "Ubuntu"
+    url: /posting/5_ubuntu/
+  - title: "Hardware"
+    url: /posting/6_hardware
+
+sidebar-slam:
+  - title: "I. Introduction"
+    url: /posting/1_slam/1_introduction/
+  - title: "II. Transformation"
+    url: /posting/1_slam/2_transformation/
+  - title: "III. Camera Model"
+    url: /posting/1_slam/3_cameramodel/
+  - title: "IV. Nonlinear Optimization"
+    url: /posting/1_slam/4_nonlinearoptimization/
+  - title: "V. Multiple View Geometry"
+    url: /posting/1_slam/5_multipleviewgeometry/
+  - title: "VI. FrontEnd1 - Feature"
+    url: /posting/1_slam/6_frontend1feature/
+  - title: "VII. FrontEnd2 - Direct"
+    url: /posting/1_slam/7_frontend2direct/
+  - title: "VIII. BackEnd1 - Bayesian Filter"
+    url: /posting/1_slam/8_backend1bayesianfilter/
+  - title: "IX. BackEnd2 - Pose Graph"
+    url: /posting/1_slam/9_backend2posegraph/
+  - title: "X. Loop Closure"
+    url: /posting/1_slam/10_loopclosure/
+  - title: "XI. Mapping"
+    url: /posting/1_slam/11_mapping/
+
+
+sidebar-opencv:
+  - title: "OpenCV"
+    url: /posting/2_opencv/
+
+sidebar-papersurvey:
+  - title: "Paper Survey"
+    url: /posting/3_papersurvey/
+
+sidebar-deeplearning:
+  - title: "Deep Learning"
+    url: /posting/4_deeplearning/  
+
+sidebar-ubuntu:
+  - title: "Ubuntu"
+    url: /posting/5_ubuntu/
+
+sidebar-hardware:
+  - title: "Hardware"
+    url: /posting/6_hardware
+
+
+
+
+
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
@@ -10,3 +71,5 @@ main:
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
+  
+  
