@@ -1,7 +1,10 @@
 ---
-layout: posts
+layout: archive
 title: 9_BackEnd2 - Pose Graph
 author_profile: false
 sidebar:
   nav: sidebar-slam
 ---
+
+{% assign posts = site.categories.graph %}
+{% for post in posts %} {% include archive-single.html type=page.entries_layout %} {% endfor %}

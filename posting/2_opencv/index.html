@@ -1,7 +1,10 @@
 ---
-layout: posts
+layout: archive
 title: OpenCV
 author_profile: false
 sidebar:
   nav: sidebar-opencv
 ---
+
+{% assign posts = site.categories.opencv %}
+{% for post in posts %} {% include archive-single.html type=page.entries_layout %} {% endfor %}

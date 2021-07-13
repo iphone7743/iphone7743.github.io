@@ -1,7 +1,10 @@
 ---
-layout: posts
+layout: archive
 title: 6_FrontEnd1 - Feature
 author_profile: false
 sidebar:
   nav: sidebar-slam
 ---
+
+{% assign posts = site.categories.feature %}
+{% for post in posts %} {% include archive-single.html type=page.entries_layout %} {% endfor %}

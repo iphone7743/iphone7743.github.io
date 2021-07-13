@@ -1,7 +1,10 @@
 ---
-layout: posts
+layout: archive
 title: 3_Camera Model
 author_profile: false
 sidebar:
   nav: sidebar-slam
 ---
+
+{% assign posts = site.categories.cameramodel %}
+{% for post in posts %} {% include archive-single.html type=page.entries_layout %} {% endfor %}

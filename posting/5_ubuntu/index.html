@@ -1,7 +1,10 @@
 ---
-layout: posts
+layout: archive
 title: Ubuntu
 author_profile: false
 sidebar:
   nav: sidebar-ubuntu
 ---
+
+{% assign posts = site.categories.ubuntu %}
+{% for post in posts %} {% include archive-single.html type=page.entries_layout %} {% endfor %}
