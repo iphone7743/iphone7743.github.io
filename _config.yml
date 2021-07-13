@@ -12,18 +12,18 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "en-US"
-title                    : "Site Title"
-title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Your Name"
-description              : "An amazing website."
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+locale                   : "en-US"     
+title                    : "SLAM BLOG"       # Meta 태그에 들어가는 영역으로서, masthead_title 등이 없으면 기본값 배정
+title_separator          : "&#124;"          # 타이틀 사이 구분자 <title> Welcome to SLAM | Mistakes</title> 해당 형식으로 들어감
+subtitle                 : "Version 1.0"     # 타이틀 하단의 서브타이틀
+name                     : "MinSeong Choi"   # 하단에 나올 이름
+description              : "SLAM 블로그"      # Meta 태그에 들어가는 영역
+url                      : "https://iphone7743.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "iphone7743/iphone7743.github.io" #"mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
@@ -59,7 +59,7 @@ reCaptcha:
 atom_feed:
   path                   : # blank (default) uses feed.xml
   hide                   : # true, false (default)
-search                   : # true, false (default)
+search                   : true # true, false (default)
 search_full_content      : # true, false (default)
 search_provider          : # lunr (default), algolia, google
 algolia:
@@ -101,11 +101,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "최민성"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
-  email            :
+  bio              : "KAIST Ph.D candidate in Future Vehicle Department"
+  location         : "Republic of Korea"
+  email            : "iphone7743@kaist.ac.kr"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -276,14 +276,28 @@ compress_html:
 
 # Defaults
 defaults:
-  # _posts
+  
+  # _home
   - scope:
       path: ""
-      type: posts
     values:
       layout: single
       author_profile: true
+      header:
+        overlay_image: /assets/images/sample.jpeg
+        overlay_filter: 0.3
+        actions:
+          - label: "GitHub"
+            url: "https://github.com/iphone7743"
+
+  # _posts
+  - scope:
+      path: ""
+    values:
+      layout: single
+      author_profile: true
+
       read_time: true
-      comments: # true
-      share: true
+      comments: true
+      share: false
       related: true
