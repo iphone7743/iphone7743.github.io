@@ -19,8 +19,8 @@ sidebar-slam:
     url: /posting/1_slam/1_introduction/
   - title: "II. Transformation"
     url: /posting/1_slam/2_transformation/
-  - title: "III. Camera Model"
-    url: /posting/1_slam/3_cameramodel/
+  - title: "III. Camera"
+    url: /posting/1_slam/3_camera/
   - title: "IV. Nonlinear Optimization"
     url: /posting/1_slam/4_nonlinearoptimization/
   - title: "V. Multiple View Geometry"
