@@ -1,20 +1,19 @@
 ---
 layout: archive
-title: OpenCV
+title: RADAR
 author_profile: false
 
 header:
-  overlay_image: /assets/images/OpenCV.png
+  overlay_image: /assets/images/sample.jpeg
   overlay_filter: 0.3
   actions:
     - label: "GitHub"
       url: "https://github.com/iphone7743"
 
 sidebar:
-  nav: sidebar-opencv  
-
+  nav: sidebar-sensor
 
 ---
 
-{% assign posts = site.categories.opencv %}
+{% assign posts = site.categories.radar %}
 {% for post in posts %} {% include archive-single.html type=page.entries_layout %} {% endfor %}

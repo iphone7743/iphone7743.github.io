@@ -11,8 +11,10 @@ main:
     url: /posting/4_deeplearning/  
   - title: "Ubuntu"
     url: /posting/5_ubuntu/
-  - title: "Hardware"
-    url: /posting/6_hardware
+  - title: "Sensor"
+    url: /posting/6_sensor
+  - title: "Coding"
+    url: /posting/7_coding
 
 sidebar-slam:
   - title: "I. Introduction"
@@ -55,12 +57,34 @@ sidebar-ubuntu:
   - title: "Ubuntu"
     url: /posting/5_ubuntu/
 
-sidebar-hardware:
-  - title: "Hardware"
-    url: /posting/6_hardware
+sidebar-sensor:
+  - title: "I. ROS"
+    url: /posting/6_sensor/1_ros/
+  - title: "II. DSP"
+    url: /posting/6_sensor/2_dsp/
+  - title: "III. CAMERA"
+    url: /posting/6_sensor/3_camera/
+  - title: "IV. IMU"
+    url: /posting/6_sensor/4_imu/
+  - title: "V. GPS"
+    url: /posting/6_sensor/5_gps/
+  - title: "VI. LIDAR"
+    url: /posting/6_sensor/6_lidar/
+  - title: "VII. RADAR"
+    url: /posting/6_sensor/7_radar/
 
 
 
+
+sidebar-coding:
+  - title: "I. VS Code"
+    url: /posting/7_coding/1_vscode/
+  - title: "II. C/C++"
+    url: /posting/7_coding/2_c_c++/
+  - title: "III. Python"
+    url: /posting/7_coding/3_python/
+  - title: "IV. CUDA"
+    url: /posting/7_coding/4_cuda/
 
 
   # - title: "About"
