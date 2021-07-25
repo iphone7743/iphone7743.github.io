@@ -16,11 +16,11 @@ minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt
 
 # Site Settings
 locale                   : "en-US"     
-title                    : "SLAM BLOG"       # Meta 태그에 들어가는 영역으로서, masthead_title 등이 없으면 기본값 배정
-title_separator          : "&#124;"          # 타이틀 사이 구분자 <title> Welcome to SLAM | Mistakes</title> 해당 형식으로 들어감
-subtitle                 : "Version 1.0"     # 타이틀 하단의 서브타이틀
-name                     : "MinSeong Choi"   # 하단에 나올 이름
-description              : "SLAM 블로그"      # Meta 태그에 들어가는 영역
+title                    : "SLAM & Control BLOG"     # Meta 태그에 들어가는 영역으로서, masthead_title 등이 없으면 기본값 배정
+title_separator          : "&#124;"                  # 타이틀 사이 구분자 <title> Welcome to SLAM | Mistakes</title> 해당 형식으로 들어감
+subtitle                 : "Autonomous Vehicle"      # 타이틀 하단의 서브타이틀
+name                     : "MinSeong Choi"           # 하단에 나올 이름
+description              : "Autonomous Vehicle"      # Meta 태그에 들어가는 영역
 url                      : "https://iphone7743.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "iphone7743/iphone7743.github.io" #"mmistakes/minimal-mistakes"
@@ -285,7 +285,7 @@ defaults:
       layout: single
       author_profile: true
       header:
-        overlay_image: /assets/images/sample.jpeg
+        overlay_image: /assets/images/SensorFusion.png
         overlay_filter: 0.3
         actions:
           - label: "GitHub"
