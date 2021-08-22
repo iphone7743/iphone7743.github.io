@@ -46,8 +46,12 @@ sidebar-opencv:
     url: /posting/2_opencv/
 
 sidebar-papersurvey:
-  - title: "Paper Survey"
-    url: /posting/3_papersurvey/
+  - title: "I. ORBSLAM2"
+    url: /posting/3_papersurvey/1_orbslam2
+  - title: "II. ORBSLAM3"
+    url: /posting/3_papersurvey/2_orbslam3
+
+
 
 sidebar-deeplearning:
   - title: "Deep Learning"
